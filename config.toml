@@ -1,4 +1,57 @@
-baseURL = "http://example.org/"
+baseURL = "https://stanbsky.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Stan Borzhemsky"
 theme = "avicenna"
+# googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "CS Student"
+  interests="Back-end development, Python, DevOps"
+  cv_name= "StanBorzhemsky_CV.pdf"
+  blog=""
+
+[[params.affilation]]
+  name = "University of York"
+  position = "MEng Computer Science"
+  contact = "stanbsky@protonmail.com"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/stanbsky"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/stanbsky/"
+
+
+[[params.introduction.paragraph]]
+  text="""I am an undergraduate student working towards a masters in computer science.
+  """
+[[params.introduction.paragraph]]
+  text="""I've been programming recreationally for years, beginning with PHP and moving on to Ruby on Rails.
+Currently, I use Python and Java and enjoy incorporating modern software engineering techniques such as test-driven development and containerized deployment.
+  """
+
+[[params.introduction.paragraph]]
+  text="""I am working towards becoming a back-end software developer comfortable working in roles involving the application of DevOps principles and agile software development methodologies.  """
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Datasucker - personal-scale, self-hosted ETL pipeline"
+		description  = """Modular framework in Python allowing the user to regularly poll external APIs for data and take actions such as storing
+the results or submitting on to another service.
+
+On-going project. Code link to be provided once MVP is complete.
+"""
+		# project_page = "https://myprojecthomepage.com"
+		# code_link = "https://coderepo.com"
+		# blog_link = "https://ablogpost.com"
+
+ [[params.projects.project]]
+		name = "York SSH login automation"
+		description  = "Command line script handling creation of SSH sessions by automating the password and OTP authentication process."
+		code_link = "https://github.com/stanbsky/york-ssh"
+		blog_link = ""
