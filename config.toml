@@ -13,7 +13,7 @@ timeout=3000
 
 [[params.affilation]]
   name = "University of York"
-  position = "MEng Computer Science"
+  position = "MEng Computer Science Student"
   contact = "stanbsky@protonmail.com"
 
 [[params.social]]
